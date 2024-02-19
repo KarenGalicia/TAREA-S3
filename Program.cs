@@ -1,7 +1,6 @@
 ﻿//1. CALCULA EL MAYOR DE TRES NUMEROS
 
 using System;
-
 class Program
 {
     static void Main(string[] arg)
