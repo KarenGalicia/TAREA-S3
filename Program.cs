@@ -37,5 +37,25 @@ class Program
         Console.ForegroundColor = ConsoleColor.DarkBlue;
         Console.WriteLine("El mayor de los tres números es: " + mayor);
         Console.ResetColor();
+//2. INGRESO AL CLUB
+        Console.WriteLine("**2.INGRESO AL CLUB DE AMIGOS**");
+        Console.WriteLine("--------------------------");
+        Console.WriteLine("Introduzca su edad: ");
+        int edad = Convert.ToInt32(Console.ReadLine());
+
+        // Validar la edad
+        if (edad >= 18)
+        {
+      
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.WriteLine("** ¡AL CLUB DE AMIGOS, DISFRUTA DE NUESTROS EVENTOS!**");
+            Console.ResetColor();
+        }
+        else
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("**ACCESO DENEGADO AL CLUB DE AMIGOS,DISFRUTA TU NIÑEZ. REGRESA CUANTO TENGAS 18 AÑOS COMO MÍNIMO**");
+            Console.ResetColor();
+        }
     }
 }
