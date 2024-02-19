@@ -12,7 +12,7 @@ class Program
 
 		Console.WriteLine("Introduzca el primer número:");
 
-#pragma warning disable CS8604 // Posible argumento de referencia nulo
+#pragma warning disable CS8604
 		num1 = int.Parse(s:Console.ReadLine());
 
 		Console.WriteLine("Introduzca el segundo número:");
